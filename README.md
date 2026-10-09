@@ -101,9 +101,9 @@ Here are the default values used for the above parameters:
 ### Results 
 
 Results are stored in the folders with matching code. The name of the results file indicates the update method, presence/absence of U, and if drift was included.
-E.g. full.results.refit.U.thetaDrift contains the results when full model refit is used as the update method, unmeasured confounding is included in the simulation, and data drift for the risk threshold for treatment theta is included.
+E.g. summary.full.results.refit.U.thetaDrift contains the results when full model refit is used as the update method, unmeasured confounding is included in the simulation, and data drift for the risk threshold for treatment theta is included.
 
-Full results files contains results from all repetitions for each scenario. Summary full results files contain processed results across the repetitions, with means and 95% confidence intervals for the performance measures.
+Summary full results files contain processed results across the repetitions, with means and 95% confidence intervals for the performance measures.
 
 Results are split by model type, where "CPM" indicates the model did not include treatment status as a predictor variable and "CPM with treatment variable" indicates it did.
 
